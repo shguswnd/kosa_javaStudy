@@ -1,0 +1,8 @@
+package ex05_01;
+
+interface Stack {
+	int length();
+	int capacity();
+	String pop();
+	boolean push(String val);
+}
